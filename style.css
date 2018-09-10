@@ -1,0 +1,96 @@
+.my-class {
+    background-color: black;
+    
+}
+.splash-screen {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('logo.jpg');
+    background-size: cover;
+
+}
+#parallax {
+    background-image: url('second.jpg');
+    height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clear: both;
+
+}
+#car {
+    text-align: center;
+}
+
+.tagline {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+    height: 0px;
+    width: 200px;
+    
+
+}
+
+
+option {
+    background-color: rgb(77, 67, 67);
+}
+.move {
+ background-color: white;
+ float: left;
+}
+label {
+    color: rgb(175, 175, 175);
+    position: relative;
+    font-family: arial;
+}
+#thefot {
+    background-color:rgb(175, 175, 175);
+    padding: 20px;
+}
+.card-container {
+    cursor: pointer;
+    height: 150px;
+    perspective: 600;
+    position: relative;
+    width: 150px;
+}
+.card {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    width: 100%;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+  }
+  .card .side {
+      backface-visibility: hidden;
+      border-radius: 6px;
+      height: 100%;
+      position: absolute;
+      overflow: hidden;
+        width: 100%;
+      }
+  
+  .card .back {
+    background: #eaeaed;
+    color: #0087cc;
+    line-height: 50px;
+    text-align: center;
+    transform: rotateY(180deg);
+  }
+  
+.card-container .card {
+    border-radius: 75px;
+    text-align: center;
+}
+.card-container .card .side {
+    text-align: center;
+}
